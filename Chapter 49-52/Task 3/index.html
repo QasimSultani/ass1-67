@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+    <style>
+      .hidden
+      {
+        display: none;
+      }
+      .appear
+      {
+        display: inline;
+      }
+    </style>
+</head>
+<body>
+  <table style="width: 20%;" id="tab">
+    <tr>
+       <th>INDEX</th>
+       <th>NAME</th>
+       <th>CLASS</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>Jhon</td>
+        <td>10</td>
+        <td><button onclick="del(this)">delete</button></td>
+        <td><button onclick="add(this)">edit</button></td>
+
+
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Doe</td>
+        <td>9</td>
+        <td><button onclick="del(this)">delete</button></td>
+        <td><button onclick="add(this)">edit</button></td>
+
+
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mark</td>
+        <td>10</td>
+        <td><button onclick="del(this)">delete</button></td>
+        <td><button onclick="add(this)">edit</button></td>
+
+
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>James</td>
+        <td>8</td>
+        <td><button onclick="del(this)">delete</button></td>
+        <td><button onclick="editform()">edit</button></td>
+
+
+    </tr>
+
+    <form action="" >
+      <div  class="hidden" id="make" >
+        index<input type="text" name="" id="index"><br><br>
+        name<input type="text" name="" id="name"><br><br>
+        class<input type="text" name="" id="class"><br><br>
+        <button onclick="done()">done</button><br><br>
+      </div>
+    </form>
+</table>
+</body>
+</html>

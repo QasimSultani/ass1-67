@@ -1,0 +1,1 @@
+var name= "qasim", age="20",height ="5.5";
